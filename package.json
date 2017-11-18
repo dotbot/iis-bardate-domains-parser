@@ -1,6 +1,6 @@
 {
   "name": "iis-bardate-domains-parser",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "IIS bardate domains parser - https://www.iis.se/data/bardate_domains.txt",
   "keywords": [
     "iis",
