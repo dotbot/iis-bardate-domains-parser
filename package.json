@@ -12,12 +12,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotbot/iis-bardate-domains-parser.git"
+    "url": "git+https://github.com/vikpe/iis-bardate-domains-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/dotbot/iis-bardate-domains-parser/issues"
+    "url": "https://github.com/vikpe/iis-bardate-domains-parser/issues"
   },
-  "homepage": "https://github.com/dotbot/iis-bardate-domains-parser",
+  "homepage": "https://github.com/vikpe/iis-bardate-domains-parser",
   "scripts": {
     "test": "nyc mocha",
     "test:watch": "nyc mocha -w",
