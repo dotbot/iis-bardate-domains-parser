@@ -1,4 +1,5 @@
 var axios = require('axios');
+var resolve = require('path').resolve;
 var sinon = require('sinon');
 var expect = require('chai').expect;
 var iisParser = require('./../lib/iis-bardate-domains-parser');
@@ -31,11 +32,11 @@ describe('IIS bardate domains parser', function() {
       });
 
       it('should handle success', function() {
-        var buffer = readFileSync(__dirname + '\\bardate_domains.txt');
+        var mockedTextFile = readFileSync(resolve('.', 'test/bardate_domains.txt'));
 
         var responseMock = {
           status: 200,
-          data: buffer
+          data: mockedTextFile
         };
 
         axios.get.resolves(responseMock);
