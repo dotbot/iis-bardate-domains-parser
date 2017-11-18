@@ -1,0 +1,36 @@
+{
+  "name": "iis-bardate-domains-parser",
+  "version": "0.0.0",
+  "description": "IIS bardate domains parser - https://www.iis.se/data/bardate_domains.txt",
+  "keywords": [
+    "iis",
+    "domains",
+    "domain-names",
+    "parser"
+  ],
+  "author": "Viktor Persson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotbot/iis-bardate-domains-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dotbot/iis-bardate-domains-parser/issues"
+  },
+  "homepage": "https://github.com/dotbot/iis-bardate-domains-parser",
+  "scripts": {
+    "test": "nyc mocha",
+    "test:watch": "nyc mocha -w",
+    "coverage": "nyc report --reporter=text-lcov > coverage/lcov.info"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0",
+    "nyc": "^11.3.0",
+    "sinon": "^4.1.0"
+  }
+}
