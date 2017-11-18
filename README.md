@@ -1,4 +1,4 @@
-# IIS bardate domains parser [![Build Status](https://travis-ci.org/vikpe/iis-bardate-domains-parser.svg?branch=master)](https://travis-ci.org/vikpe/iis-bardate-domains-parser)
+# IIS bardate domains parser [![Build Status](https://travis-ci.org/vikpe/iis-bardate-domains-parser.svg?branch=master)](https://travis-ci.org/vikpe/iis-bardate-domains-parser)  [![Test Coverage](https://codeclimate.com/github/vikpe/iis-bardate-domains-parser/badges/coverage.svg)](https://codeclimate.com/github/vikpe/iis-bardate-domains-parser/coverage)
 > Parses IIS bardate domains into an array
 
 **Source**
