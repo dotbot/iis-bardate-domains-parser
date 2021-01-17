@@ -1,8 +1,12 @@
-# IIS bardate domains parser [![Build Status](https://travis-ci.org/vikpe/iis-bardate-domains-parser.svg?branch=master)](https://travis-ci.org/vikpe/iis-bardate-domains-parser)  [![Test Coverage](https://codeclimate.com/github/vikpe/iis-bardate-domains-parser/badges/coverage.svg)](https://codeclimate.com/github/vikpe/iis-bardate-domains-parser/coverage)
+# IIS bardate domains parser
 > Parses IIS bardate domains into an array
 
-**Source**
+## DEPRECATED
+Download directly from IIS instead: https://data.internetstiftelsen.se/bardate_domains.json
 
+---
+
+**Source**
 https://www.iis.se/data/bardate_domains.txt
 
 **Example**
